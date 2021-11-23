@@ -1,0 +1,121 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
+            <title>proximity | nick benson</title>
+            <meta name="description" content="proximity">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes" />
+            <link rel="stylesheet" href="/main.css">
+
+            <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+            <link rel="stylesheet" href="/fancybox-master/dist/jquery.fancybox.css" />
+            <script src="/fancybox-master/dist/jquery.fancybox.js"></script>
+
+            <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
+            <script src="/main.js"></script>
+            <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#0b0b0b">
+<meta name="theme-color" content="#313131">      
+        </head>
+
+<style>
+* {
+box-sizing: border-box;
+}
+</style>
+
+<body>
+
+    <div class="header-web" id="header">
+        <div id="headerleft"><a href="/index">Nick Benson</a></div>
+        <div id="headerright">
+           <div id="menuleft"><a href="/photo">photo</a></div> 
+           <div id="menuleft"><a href="/music">music</a></div> 
+           <div id="menuright"><a href="/about">about</a></div> 
+        </div>
+    </div>
+
+
+    <div class="header-mobile" id="header">
+      <div id="headerleftmobile"><a class="headermobile" href="/index">Nick Benson</a></div>
+      <div id="headerrightmobile">
+         <div id="menuleft"><a href="/photo">photo</a></div> 
+         <div id="menuleft"><a href="/music">music</a></div> 
+         <div id="menuright"><a href="/about">about</a></div> 
+      </div>
+  </div>
+
+    <p id="fucksafari" style="margin-top: 125px;"><u>proximity</u><br>
+        <input type="button" id="hideshow" value="about" style="font-size: 12px; padding-top: 1px;"></p>
+        
+        <div id="about" style="display: none;">
+        <p style="font-size: 13px;">shot throughout the first eight months of 2019, these are all pictures 
+            of my close friends (with the exeption of one stranger). every image here shows an attempt, 
+            internally, to push myself out of my photographic comfort zone.<br><br>
+            in the simplest of terms, i have never really shot people before. it has always been an invisible 
+            barrier. i had always wanted to seriously photograph people, but quite honestly, 
+            i had never been brave enough to try.<br><br>
+            every photo here is shot with my grandfather's yashica mat twin lens reflex. it was the perfect gift, 
+            a camera that forces the photographer to get close to the subject. that closeness is what this 
+            project is really all about, as well as a very personal reminder of my own limitations both 
+            behind the camera and in life more generally.
+        </p></div>
+
+<div style="margin-top: 25px;" id="row">
+    <div id="column">
+      <a class="card-image" data-fancybox="gallery" href="/images/proximity1.jpg"
+      style="background-image: url(/images/proximity1small.jpg);" data-image-full="/images/proximity1.jpg">
+      <img src="/images/proximity1.jpg" style="width:100%">
+        </a>
+        </div>
+    <div id="column">
+      <a class="card-image" data-fancybox="gallery" href="/images/proximity2.jpg"
+      style="background-image: url(/images/proximity2small.jpg);" data-image-full="/images/proximity2.jpg">
+        <img src="/images/proximity2.jpg" style="width:100%"></a>
+    </div>
+    <div id="column">
+        <a class="card-image" data-fancybox="gallery" href="/images/proximity3.jpg"
+        style="background-image: url(/images/proximity3small.jpg);" data-image-full="/images/proximity3.jpg">
+          <img src="/images/proximity3.jpg" style="width:100%"></a>
+      </div>
+      <div id="column">
+        <a class="card-image" data-fancybox="gallery" href="/images/proximity4.jpg"
+        style="background-image: url(/images/proximity4small.jpg);" data-image-full="/images/proximity4.jpg">
+          <img src="/images/proximity4.jpg" style="width:100%"></a>
+      </div>
+      <div id="column">
+        <a class="card-image" data-fancybox="gallery" href="/images/proximity5.jpg"
+        style="background-image: url(/images/proximity5small.jpg);" data-image-full="/images/proximity5.jpg">
+          <img src="/images/proximity5.jpg" style="width:100%"></a>
+      </div>
+      <div id="column">
+        <a class="card-image" data-fancybox="gallery" href="/images/proximity6.jpg"
+        style="background-image: url(/images/proximity6small.jpg);" data-image-full="/images/proximity6.jpg">
+          <img src="/images/proximity6.jpg" style="width:100%"></a>
+      </div>
+      <div id="column">
+        <a class="card-image" data-fancybox="gallery" href="/images/proximity7.jpg"
+        style="background-image: url(/images/proximity7small.jpg);" data-image-full="/images/proximity7.jpg">
+          <img src="/images/proximity7.jpg" style="width:100%"></a>
+      </div>
+      <div id="column">
+        <a class="card-image" data-fancybox="gallery" href="/images/proximity8.jpg"
+        style="background-image: url(/images/proximity8small.jpg);" data-image-full="/images/proximity8.jpg">
+          <img src="/images/proximity8.jpg" style="width:100%"></a>
+      </div></div>
+
+<script>
+    $("#hideshow").on("click",function(){
+    $("#about").toggle("display")
+    });
+    </script>
+
+</body>
+
+</html>
