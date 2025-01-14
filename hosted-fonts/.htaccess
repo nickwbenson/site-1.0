@@ -1,6 +1,6 @@
 <FilesMatch "\.(ttf|otf|eot|woff|woff2)$">
   <IfModule mod_headers.c>
-    Header add Access-Control-Allow-Origin "*"
+    Header add Access-Control-Allow-Origin "https://228printers.bigcartel.com/"
     Header add Access-Control-Allow-Methods: "GET"
   </IfModule>
 </FilesMatch>
